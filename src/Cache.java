@@ -44,21 +44,4 @@ public class Cache<K, V>
         }
     }
 
-//    private static class CacheEntry<V> {
-//        private final V value;
-//        private final long expiryTimeInMillis;
-//
-//        public CacheEntry(V value, long expiryTimeInMillis) {
-//            this.value = value;
-//            this.expiryTimeInMillis = expiryTimeInMillis + System.currentTimeMillis();
-//        }
-//
-//        public V getValue() {
-//            return value;
-//        }
-//
-//        public boolean isNotExpired() {
-//            return System.currentTimeMillis() < expiryTimeInMillis;
-//        }
-//    }
 }
